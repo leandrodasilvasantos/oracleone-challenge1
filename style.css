@@ -60,7 +60,7 @@ p {
   margin-left: 100px;
   outline: none;
   resize: none;
-  background-image: url('../img/waiting.png');
+  background-image: url('https://github.com/leandrodasilvasantos/oracleone-challenge1/img/waiting.png');
   background-repeat: no-repeat;
   background-size: 200px 200px;
   background-origin: padding-box;
