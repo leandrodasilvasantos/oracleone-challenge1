@@ -8,7 +8,6 @@ function encript(newStringENC) {
 	newStringENC = newStringENC.toLowerCase();
   newStringENC = newStringENC.replaceAll(/e/gi, "enter").replaceAll(/i/gi, "imes").
   replaceAll(/a/gi, "ai").replaceAll(/o/gi, "ober").replaceAll(/u/gi, "ufat");
-  console.log(newStringENC);
   document.getElementById('boxScreen').value = newStringENC;
   hide.style.backgroundImage = 'none';
 	return newStringENC;
@@ -18,7 +17,6 @@ function desencript(newStringENC) {
 	newStringDESENC = newStringDESENC.toLowerCase();
   newStringDESENC = newStringDESENC.replaceAll("enter", "e").replaceAll("imes", "i").
   replaceAll("ai", "a").replaceAll("ober", "o").replaceAll("ufat", "u");
-  console.log(newStringDESENC);
   document.getElementById('boxScreen').value = newStringDESENC;
   hide.style.backgroundImage = 'none';
 	return newStringDESENC;
