@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oracle Challenge</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <img id="icon" src="/img/icon.png" alt="">
+  </header>
+  <section class="main">
+
+    <div class="codificar">
+       <textarea id="boxMain" rows="9" cols="30" placeholder="Digite seu texto"></textarea>
+      <div id="info">
+        <p>&#9888 Apenas letras minúsculas e sem acento.</p>
+      </div>
+      <div class="button">
+        <button class="BUTTON_ENC" onclick="encript()">Encriptar</button>
+        <button class="BUTTON_DESENC" onclick="desencript()">Desencriptar</button>
+      </div>
+    </div>
+
+    <div class="descodificar">
+      <textarea readonly id="boxScreen" rows="9" cols="30" placeholder="Aguardando texto..."></textarea>
+      <button id = "buttonCOPY" onclick="copyText()">COPIAR</button>
+    </div>
+  </section> 
+    <script src="alg.js"></script>
+</body>
+</html>
